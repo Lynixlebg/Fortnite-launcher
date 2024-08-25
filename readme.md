@@ -1,4 +1,4 @@
-# Based on the [Eon Launcher](https://github.com/eonfn/Launcher-V1) Tbh there is no more code from the eon launcher (execpt for the launching shit) ps:first launcher i ever made so yea it mighy be shit and it might not
+# Based on the [Eon Launcher](https://github.com/eonfn/Launcher-V1) Tbh there is no more code from the eon launcher (execpt for the launching shit) ps:first launcher i ever made so yea it mighy be shit and it might not made a year ago btw
 ## features:
 ### -modern ui
 
