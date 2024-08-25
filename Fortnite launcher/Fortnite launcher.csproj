@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>logo1.ico</ApplicationIcon>
+    <AssemblyName>Fortnite launcher</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="LoginBackground.png" />
+    <None Remove="logo1.ico" />
+    <None Remove="Pages\Banner.png" />
+    <None Remove="Pages\Discord.png" />
+    <None Remove="Pages\Fortnites11.png" />
+    <None Remove="Pages\fortnites12.png" />
+    <None Remove="Pages\Snow.png" />
+    <None Remove="Pages\snowflake.png.png" />
+    <None Remove="Pages\trashbin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="logo1.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiscordRichPresence" Version="1.2.1.24" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.6.0" />
+    <PackageReference Include="HMBSbige.SingleInstance" Version="6.0.1" />
+    <PackageReference Include="ini-parser" Version="2.5.2" />
+    <PackageReference Include="MaterialDesign.Icons" Version="1.1.0" />
+    <PackageReference Include="ModernWpfUI" Version="0.9.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SingleInstanceCore" Version="2.2.2" />
+    <PackageReference Include="SingleInstanceHelper" Version="1.0.3" />
+    <PackageReference Include="WindowsAPICodePack.Shell.CommonFileDialogs" Version="1.1.5" />
+    <PackageReference Include="WpfSnowfall" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="LoginBackground.png" />
+    <Resource Include="Pages\Banner.png" />
+    <Resource Include="Pages\Discord.png" />
+    <Resource Include="Pages\Fortnites11.png" />
+    <Resource Include="Pages\fortnites12.png" />
+    <Resource Include="Pages\trashbin.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
